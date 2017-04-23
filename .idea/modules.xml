@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DatabaseWorking.iml" filepath="$PROJECT_DIR$/DatabaseWorking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLite-Working.iml" filepath="$PROJECT_DIR$/SQLite-Working.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
