@@ -1,5 +1,6 @@
 package com.example.android.databaseworking;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -40,5 +41,15 @@ public class GroupDatabaseHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    public void addGroup(Group group) {
+        SQLiteDatabase db = this.getWritableDatabase();
 
+        ContentValues values = new ContentValues();
+        values.put(KEY_NAME, group.get_name());
+        values.put(KEY_LOCATION, group.get_location());
+
+        // Inserting Row
+        db.insert(TABLE_GROUP, null, values);
+        db.close(); // Closing database connection
+    }
 }
