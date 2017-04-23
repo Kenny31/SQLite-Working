@@ -12,7 +12,8 @@
         android:inputType="textMultiLine"
         android:layout_marginTop="25dp"
         android:layout_below="@+id/textView2"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
 
     <EditText
 
@@ -23,7 +24,8 @@
         android:hint="Enter Date of Birth"
         android:inputType="textMultiLine"
         android:layout_below="@+id/nameEditView"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
 
     <EditText
 
@@ -33,15 +35,18 @@
         android:hint="Enter Address"
         android:inputType="textMultiLine"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"/>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
         android:layout_marginTop="15dp"
         android:text="Member's Details" />
 
@@ -49,9 +54,10 @@
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginBottom="23dp"
+        android:text="Submit"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="91dp"
-        android:text="Submit" />
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
 
 </RelativeLayout>
